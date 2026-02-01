@@ -38,5 +38,9 @@ online-application-form-clone/
 │
 └── README.md
 ```
+<<<<<<< HEAD
 
 ![Page 1](images/screenshot.png)
+=======
+![Page 1](images/Screenshot.png)
+>>>>>>> 1cc989759ac9ce62420819d92b6b27ff5f753364
