@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BITSAT-1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table class="top">
+        <tr>
+            <td class="im" style="background-color: darkblue; width: auto;">
+                <a href="https://www.bits-pilani.ac.in/"><img src="images/logo.png" width="100" alt="BITS Logo"></a>
+            </td>
+            <td class="c" style="background-color:darkblue;">
+                <h3>BITSAT-2023</h3>Online Application Form
+            </td>
+            <td class="l" style="background-color:darkblue;">
+                <h3>BITS, Pilani</h3><small>Pilani | Goa | Hyderabad | Dubai</small>
+            </td>
+        </tr>
+    </table>
+    <p class="lt"><a class="lt" href="https://www.bitsadmission.com/bitsatmain.aspx?id=11012016">Logout</a></p>
+
+    <p><b>Please enter your personal details and then click on the 'Proceed' button below.</b></p>
+    <form>
+        <table class="center">
+            <tr>
+                <td class="tp">Personal Details</td>
+                <td class="tpp"> </td>
+                <td class="tpp"> </td>
+            </tr>
+            <tr>
+                <td><label for="first_name">Name<font color="red">*</font><br><small>(as in 12<sup>th</sup>&nbsp;Year
+                            Examination Marksheet)</small></label></td>
+                <td><input type="text" id="first_name" name="first_name"><br><small>(First Name/Given Name)</small></td>
+                <td><input type="text" id="last_name" name="last_name"><br><small>(Last Name/surname)</small></td>
+            </tr>
+            <tr>
+                <td>
+                    Gender<font color="red">*</font>
+                </td>
+                <td colspan="2">
+                    <input type="radio" id="m" name="gndr" value="male"> <label for="m">Male</label>
+                    <input type="radio" id="f" name="gndr" value="female"> <label for="f">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of birth<font color="red">*</font></label></td>
+                <td colspan="2"><input type="date" id="dob" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="mail">Email-Id<font color="red">*</font></label></td>
+                <td colspan="2"><input type="email" id="mail" name="mail"></td>
+            </tr>
+            <tr>
+                <td><label for="mail_confirm">Confirm Email-Id<font color="red">*</font></label></td>
+                <td colspan="2"><input type="email" id="mail_confirm" name="mail_confirm"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">Mobile Number<font color="red">*</font></label>
+                </td>
+                <td colspan="2"> 
+                    <input style="width: 30px;" type="tel" id="phone_code" name="phone_code" placeholder="01" pattern="[0-9]{2}" required> 
+                    <input type="tel" id="phone" name="phone" placeholder="012-345-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    <br><small>
+                        <font color="blue">
+                            <font color="red">Note:-</font>By entering your mobile number you agree that BITS can
+                            contact you though SMS/phone in matter related to admission to BITS.
+                        </font>
+                    </small>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone_confirm">Confirm Mobile Number<font color="red">*</font></label>
+                </td>
+                <td colspan="2">
+                    <input style="width: 30px;" type="tel" id="phone_code_confirm" name="phone_code_confirm" placeholder="01" pattern="[0-9]{2}" required>
+                    <input type="tel" id="phone_confirm" name="phone_confirm" placeholder="012-345-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Password<font color="red">*</font><br><small>Please choose your own Password by
+                            entering 8 alphanumeric character</small> </label>
+                </td>
+                <td colspan="2">
+                    <input type="password" id="pass" name="pass" required> (only letters and/or numbers)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass_confirm">Confirm Password<font color="red">*</font></label>
+                </td>
+                <td colspan="2">
+                    <input type="password" id="pass_confirm" name="pass_confirm" required>
+                </td>
+            </tr>
+        </table>
+        <p>
+            <img src="images/captcha.png" width="150px" alt="Captcha"><br>
+            <label for="captcha">Enter Captcha</label> <input class="cpta" type="text" id="captcha" name="captcha"><br>
+        </p>    
+        <table class="btn" style="border-style: none;">
+            <tr>
+                <td class="bt">
+                    <a class="link" href="page2.html">Proceed</a>
+                </td>
+            </tr>
+        </table> 
+        <br>
+    </form>
+    <div class="botm">©BITS, Pilani., All rights reserved</div>
+</body>
+</html>

@@ -1,0 +1,387 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Common Table Styles */
+table.top {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-collapse: collapse;
+    border: 0px;
+}
+
+td.im {
+    border-style: none;
+    border-color: darkblue;
+}
+
+td.c {
+    color: white;
+    text-align: center;
+    border-style: none;
+    width: 80%;
+    border: 0px;
+    border-color: darkblue;
+}
+
+td.l {
+    text-align: right;
+    width: 15%;
+    border-style: none;
+    border: 0px;
+}
+
+.lt {
+    text-align: right;
+    color: red;
+    text-decoration: none;
+}
+
+/* Page 1 Specific Styles */
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td.tp {
+    background-color: darkblue;
+    color: white;
+    border: 1px solid white;
+    border-bottom: 5px solid darkblue;
+    border-top-right-radius: 100px;
+}
+
+td.tpp {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 8px solid darkblue;
+}
+
+tr,
+td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    text-align: left;
+    border-collapse: collapse;
+    padding: 12px;
+}
+
+/* Page 3 & 4 - Override padding for specific tables */
+.page3-table tr,
+.page3-table td,
+.page4-table tr,
+.page4-table td {
+    padding: 9px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+/* Input Styles */
+input[type=password],
+input[type=email] {
+    padding: 2px 10px;
+    width: 30%;
+    border-top-right-radius: 5px;
+    border: 2px solid grey;
+    border-top-left-radius: 5px;
+    height: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 4px 2px;
+}
+
+input[type=tel] {
+    padding: 2px 10px;
+    width: 23%;
+    border-top-right-radius: 5px;
+    border: 2px solid grey;
+    border-top-left-radius: 5px;
+    height: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 4px 2px;
+}
+
+/* Page 2 - Tel input with background */
+.page2-tel {
+    padding: 2px 10px;
+    width: 30%;
+    border-top-right-radius: 5px;
+    border: 2px solid grey;
+    background-color: whitesmoke;
+    border-top-left-radius: 5px;
+    height: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 4px 2px;
+}
+
+input.cpta[type=text] {
+    padding: 2px 12px;
+    border-top-right-radius: 5px;
+    border: 2px solid grey;
+    border-top-left-radius: 5px;
+    height: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 4px 2px;
+    width: 15%;
+}
+
+input[type=text] {
+    text-align: left;
+    padding: 2px 10px;
+    width: 60%;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    height: 30px;
+    border: 2px solid grey;
+    margin: 4px 2px;
+}
+
+/* Page 2 - Text input with background */
+.page2-text {
+    text-align: left;
+    padding: 2px 10px;
+    background-color: whitesmoke;
+    width: 30%;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    height: 30px;
+    border: 2px solid grey;
+    margin: 4px 2px;
+}
+
+input[type=date] {
+    padding: 10px 30px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border: 2px solid grey;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+    margin: 4px 2px;
+}
+
+input[type=submit] {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 30px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+    margin: 4px 2px;
+}
+
+input[type=file] {
+    margin: 4px 2px;
+}
+
+/* Select Styles */
+select {
+    padding: 2px 10px;
+    width: 30%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 40px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 4px 2px;
+    background-color: whitesmoke;
+}
+
+/* Paragraph Styles */
+p {
+    text-align: center;
+}
+
+/* Page 2 Specific Styles */
+.box {
+    border-style: solid;
+    border-color: blue;
+    text-align: center;
+    padding: 20px;
+}
+
+table.yo,
+table.yo tr,
+table.yo td {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 16px;
+}
+
+table.yo {
+    width: 90%;
+}
+
+table.one {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table.thr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+div.sub {
+    height: 90px;
+    width: 150px;
+    background-color: rgba(255, 166, 0, 0.421);
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+td.tp3 {
+    background-color: darkblue;
+    color: white;
+    border: 1px solid white;
+    border-bottom: 5px solid darkblue;
+    border-top-right-radius: 100px;
+}
+
+td.tpp3 {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 8px solid darkblue;
+}
+
+/* Page 3 Specific Styles */
+table.up {
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 1px;
+    width: 90%;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.page4-h2 {
+    color: green;
+    text-align: center;
+}
+
+table.main {
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 1px;
+    width: 70%;
+    padding: 40px;
+}
+
+/* Page 4 Specific Styles */
+p.mid {
+    font-size: 22px;
+    text-align: center;
+}
+
+.btm {
+    font-size: 18px;
+}
+
+table.pay {
+    margin: auto;
+    text-align: center;
+}
+
+/* Common Button Styles */
+table.btn,
+td.bt {
+    background-color: darkblue;
+    border-style: none;
+    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+table.click,
+td.bt {
+    background-color: darkblue;
+    border-style: none;
+    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+/* Footer Styles */
+div.botm {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 4px;
+}
+
+/* Link Styles */
+.link {
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nxt {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 30px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+    margin: 4px 2px;
+    text-decoration: none;
+}
+
+.cpta2 {
+    width: 50px;
+}
+
+/* Utility Classes */
+ul {
+    list-style-position: inside;
+}
