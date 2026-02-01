@@ -3,31 +3,21 @@
 This project is a frontend clone of a multi-page online application form.  
 It simulates a real-world admission form workflow with multiple steps and user input fields.
 
-The purpose of this project is to practice:
-- HTML page structuring  
-- CSS styling and layout  
-- Multi-page form design  
-- UI consistency across pages  
-
----
+Live Demo: https://your-username.github.io/online-application-form-clone/
 
 ## 🚀 Features
 
-- 4-step multi-page application form  
-- Clean and consistent UI  
+- Multi-step (4 page) application form 
+- Clean and consistent UI across pages   
 - Form fields with labels and placeholders  
-- Separate CSS file for better maintainability  
-- Static frontend implementation  
-- Organized folder structure  
+- User-friendly form layout  
 
----
 
 ## 🛠️ Technologies Used
 
 - HTML5  
 - CSS3  
 
----
 
 ## 📁 Project Structure
 ```text
@@ -48,4 +38,5 @@ online-application-form-clone/
 │
 └── README.md
 ```
+
 ![Page 1](images/screenshot.png)
