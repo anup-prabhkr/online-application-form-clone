@@ -39,4 +39,4 @@ online-application-form-clone/
 └── README.md
 ```
 
-![Page 1](images/screenshot.png)
+![Page 1](images/Screenshot.png)
